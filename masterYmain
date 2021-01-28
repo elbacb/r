@@ -1,0 +1,11 @@
+ ayuda: Using 'master' as the name for the initial branch. This default branch name
+ayuda: is subject to change. To configure the initial branch name to use in all
+ayuda: of your new repositories, which will suppress this warning, call:
+ayuda: 
+ayuda: 	git config --global init.defaultBranch <name>
+ayuda: 
+ayuda: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+ayuda: 'development'. The just-created branch can be renamed via this command:
+ayuda: 
+ayuda: 	git branch -m <name>
+
