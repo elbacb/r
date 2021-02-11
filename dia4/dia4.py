@@ -1,21 +1,28 @@
 """ LISTAS """
 """ 
 añadir:
-    .append()
+    lista.append(elemento)
+    lista.insert()
     + 
 borrar:
-    .pop()
+    lista.pop()
 
 eliminar lista:
     del
 
 vacear:
-   .clear()
+   lista.clear()
 
-slice (trozo de lista)
+slice (trozo de lista):
+    lista=[5,12,4,6,8,1,0,-1,3,12,15,17,-3]
+    sublista=[3,len(lista)-1]
+    sublista1=[3:]
+    sublista2=[-3:]
+    sublista3=[:-3]
+    print(sublista)
 
 longitud:
-    len()
+    len(lista)
 """
 
 """
