@@ -1,4 +1,6 @@
-""" print(list(range(9)))
+## CICLOS Y COMPRESIÓN DE LISTAS (generar nueva lista con un for comprimido)
+""" 
+print(list(range(9)))
  """
 
 ##break
@@ -18,8 +20,8 @@ for n in nume:
         continue
     print(n)
  """
-##ciclos concatenados (nested)
 
+##ciclos concatenados (nested)
 """ equipos =[['andres', 'juan'], ['pedro', 'santiago', 'juliana'], ['juan manuel']]
 
 for equipo in equipos:
