@@ -44,7 +44,7 @@ print(mult([8, 4, 7, 9], 2)) # [16, 8, 14, 18]
  """ 
 
 ##27 funcion que recibe lista y devuelve su suma
-
+""" 
 def sum(lita):
     acum=0
     for e in range(len(lita)):
@@ -54,3 +54,17 @@ def sum(lita):
 print(sum([1, 2, 3])) # 6
 print(sum([5, 1, 8, 7])) # 21
 print(sum([])) # 0
+ """
+
+##26 
+#números pares del 1 al 100 con un ciclo
+
+#impresión de pares
+for n in range(1,100):
+    if (n)%2==0:
+        print(n)
+
+#generación de lista con pares
+#sublista=[var_temp for var_temp in lista if condicional]
+l=[n for n in range(1,100) if n%2==0]
+print(l)
