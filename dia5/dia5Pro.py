@@ -60,6 +60,7 @@ print(sum([])) # 0
 #números pares del 1 al 100 con un ciclo
 
 #impresión de pares
+""" 
 for n in range(1,100):
     if (n)%2==0:
         print(n)
@@ -68,3 +69,17 @@ for n in range(1,100):
 #sublista=[var_temp for var_temp in lista if condicional]
 l=[n for n in range(1,100) if n%2==0]
 print(l)
+ """
+
+##25
+frase=input("ingrese una frase: ")
+"""
+#con for:
+for e in range(0,10):
+    print(frase)
+ """
+#con while:
+e=0
+while e<10:
+        print(frase)
+        e+=1
