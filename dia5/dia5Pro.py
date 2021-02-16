@@ -29,10 +29,15 @@ print(prom(lita))
  """
 
 ##28 multiplicar lista
-
+""" 
 def mult(l,m):
     for k in range(len(l)):
         l[k]*=m
     return l
 print(mult([8, 4, 7, 9], 2)) # [16, 8, 14, 18]
-
+ """
+def mult(l,m):
+    l=[l[k]*m for k in range(len(l))]
+    return l
+print(mult([8, 4, 7, 9], 2)) # [16, 8, 14, 18]
+ 
