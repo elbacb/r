@@ -13,6 +13,7 @@ while x!=num:
 print("ese es")
  """
 ##29 promedio
+""" 
 print("ingrese números a la lista, se devuelve su promedio")
 lita=[]
 def prom(l):
@@ -25,3 +26,13 @@ def prom(l):
         m=input("¿otro número?, espiche entrar ")
     return acum/len(l)
 print(prom(lita))
+ """
+
+##28 multiplicar lista
+
+def mult(l,m):
+    for k in range(len(l)):
+        l[k]*=m
+    return l
+print(mult([8, 4, 7, 9], 2)) # [16, 8, 14, 18]
+
