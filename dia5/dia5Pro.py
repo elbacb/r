@@ -36,8 +36,21 @@ def mult(l,m):
     return l
 print(mult([8, 4, 7, 9], 2)) # [16, 8, 14, 18]
  """
+""" 
 def mult(l,m):
     l=[l[k]*m for k in range(len(l))]
     return l
 print(mult([8, 4, 7, 9], 2)) # [16, 8, 14, 18]
- 
+ """ 
+
+##27 funcion que recibe lista y devuelve su suma
+
+def sum(lita):
+    acum=0
+    for e in range(len(lita)):
+        acum+=lita[e]
+    return acum
+
+print(sum([1, 2, 3])) # 6
+print(sum([5, 1, 8, 7])) # 21
+print(sum([])) # 0
