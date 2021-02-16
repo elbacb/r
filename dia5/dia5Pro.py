@@ -72,6 +72,8 @@ print(l)
  """
 
 ##25
+#impresion 10 veces de una frase ingresada
+
 frase=input("ingrese una frase: ")
 """
 #con for:
